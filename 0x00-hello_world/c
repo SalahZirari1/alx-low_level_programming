@@ -1,7 +1,7 @@
-# 0 "main.c"
+# 0 "0-main.c"
 # 0 "<built-in>"
 # 0 "<command-line>"
-# 1 "main.c"
+# 1 "0-main.c"
 # 1 "/usr/include/stdio.h" 1 3 4
 # 29 "/usr/include/stdio.h" 3 4
 # 1 "/usr/include/_ansi.h" 1 3 4
@@ -951,7 +951,7 @@ _putchar_unlocked(int _c)
 }
 # 803 "/usr/include/stdio.h" 3 4
 
-# 2 "main.c" 2
+# 2 "0-main.c" 2
 
 
 
@@ -960,9 +960,9 @@ _putchar_unlocked(int _c)
 
 
 
-# 9 "main.c"
+# 9 "0-main.c"
 int main(void)
 {
-        printf("Holberton School");
-        return (0);
+ printf("Holberton School");
+ return (0);
 }
