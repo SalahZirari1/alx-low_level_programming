@@ -11,12 +11,11 @@ int main(void)
 {
 	int i;
 
-	for (i=97; i<123; i++)
+	for (i = 97; i < 123; i++)
 	{
 		putchar(i);
 	}
-	
-	putchar(32);
+	putchar("\n");
 
-        return (0);
+	return (0);
 }
