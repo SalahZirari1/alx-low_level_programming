@@ -2,12 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-/* more headers goes there */
-/* 
+
+/*
 *
 * main - prints number if positive or negative or zero
 *
-*Return:0 
+*Return:0
 */
 
 int main(void)
