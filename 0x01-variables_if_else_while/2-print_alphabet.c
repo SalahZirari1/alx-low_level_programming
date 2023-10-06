@@ -16,7 +16,7 @@ int main(void)
 		putchar(i);
 	}
 	
-	putchar(" ");
+	putchar(32);
 
         return (0);
 }
