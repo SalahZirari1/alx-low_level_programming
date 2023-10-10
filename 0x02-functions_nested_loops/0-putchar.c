@@ -1,12 +1,11 @@
 #include<stdio.h>
 #include "main.h"
-/*
+/**
  * main - entry
  *
  * Return: 0
  */
 
-/*int _putchar(char c);*/
 
 int main(void)
 {
@@ -21,5 +20,5 @@ int main(void)
 	_putchar('\n');
 
 
-	return 0;
+	return (0);
 }
