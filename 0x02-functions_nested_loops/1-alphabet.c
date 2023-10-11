@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* primt_alphabet - entry
-*
-* Return: 0
-*/
+ * print_alphabet - entry
+ *
+ * Return: 0
+ */
 
 void print_alphabet(void)
 {
