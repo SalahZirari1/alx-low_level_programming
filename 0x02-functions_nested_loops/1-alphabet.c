@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * main - entry 
- *
- * Return: 0
- */
+* main - entry
+*
+* Return: 0
+*/
 
 void print_alphabet(void)
 {
 	int i;
 
-	for ( i = 97; i < 123; i++)
+	for (i = 97; i < 123; i++)
 	{
 		_putchar(i);
 	}
