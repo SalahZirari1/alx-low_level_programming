@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*  primt_alphabet - entry
+* primt_alphabet - entry
 *
 * Return: 0
 */
