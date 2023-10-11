@@ -2,7 +2,7 @@
 #include "stdio.h"
 
 /**
- * print-sign - s
+ * print_sign - s
  * @n: n
  *
  * Return:
@@ -13,12 +13,12 @@
 
 int print_sign(int n)
 {
-	if ( n > 0 )
+	if (n > 0)
 	{
 		_putchar(43);
 		return (1);
 	}
-	if ( n < 0)
+	if (n < 0)
 	{
 		_putchar(45);
 		return (-1);
