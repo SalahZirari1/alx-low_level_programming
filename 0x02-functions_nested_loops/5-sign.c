@@ -6,9 +6,9 @@
  * @n: n
  *
  * Return:
- * 1: if pos
- * 0: if zero
- * -1: if neg
+ * - 1: if pos
+ * - 0: if zero
+ * - -1: if neg
  */
 
 int print_sign(int n)
