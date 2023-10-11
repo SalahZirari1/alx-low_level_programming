@@ -4,7 +4,7 @@
  *
  * print_alphabet_x10 - entry
  *
- * Return : void
+ * Return: void
  */
 
 
