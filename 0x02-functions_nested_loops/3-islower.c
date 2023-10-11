@@ -4,8 +4,9 @@
  * _islower - check code
  * @c : ascii value of character
  *
- * Return : 1 if lowercase
- * Return : 0 if uppercase
+ * Return:
+ * - 1 if lowercase
+ * - 0 if upper
  */
 
 int _islower(int c)
