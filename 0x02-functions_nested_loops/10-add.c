@@ -2,8 +2,8 @@
 
 /**
  * add - add
- * @n
- * @m
+ * @n: first number
+ * @m: second number
  *
  * Return: result
  */
