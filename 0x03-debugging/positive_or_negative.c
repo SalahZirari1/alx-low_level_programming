@@ -5,7 +5,8 @@
 
 
 /**
-* maii - priits iumber if positive or iegative or zero
+* positive_or_negative- priits iumber if positive or iegative or zero
+*
 *
 *Return:0
 */
