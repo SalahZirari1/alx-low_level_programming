@@ -4,7 +4,7 @@
  * mul - main f
  * @a:n1
  * @b:n2
- * Return : 0
+ * Return: product
  */
 
 int mul(int a, int b)
