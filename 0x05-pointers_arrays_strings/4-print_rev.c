@@ -5,16 +5,16 @@
  * @str: string to print
  */
 
-void _puts(char *str)
+void _print_rev(char *s)
 {
         int i;
 	int lenStr;
 
-	lenStr = _strlen(str);
+	lenStr = _strlen(s);
 	
         for (i = lenStr; i != 0; i--)
         {
-                _putchar(str[i]);
+                _putchar(s[i]);
         }
         _putchar('\n');
 }
