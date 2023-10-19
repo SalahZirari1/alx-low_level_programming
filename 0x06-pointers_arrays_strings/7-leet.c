@@ -16,6 +16,7 @@ char *leet(char *str)
 
 	ogChars = "aAeEoOtTlL";
 	reps = "44330771";
+	ptr = str;
 
 	while (*ptr != '\0')
 	{
@@ -23,7 +24,7 @@ char *leet(char *str)
 		{
 			if (*ptr == ogChars[i])
 			{
-				ptr == reps[i];
+				*ptr == reps[i];
 				break;
 			}
 		}
