@@ -12,17 +12,18 @@ char *leet(char *str)
 	char *ptr;
 	char *ogChars;
 	char *reps;
+	int i;
 
 	ogChars = "aAeEoOtTlL";
 	reps = "44330771";
 
 	while (*ptr != '\0')
 	{
-		for (int i = 0; ogChars[i] != '\0'; i++)
+		for (i = 0; ogChars[i] != '\0'; i++)
 		{
 			if (*ptr == ogChars[i])
 			{
-				*ptr == reps[i];
+				ptr == reps[i];
 				break;
 			}
 		}
