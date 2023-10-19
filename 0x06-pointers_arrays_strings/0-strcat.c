@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * *_strcat - concatenates 2 strings
+ * _strcat - concatenates 2 strings
  * @dest:returned string
- * @ddsrc:string to concat
+ * @src:string to concat
  *
- * return: pointer
+ * return: a pointer
  */
 
 char *_strcat(char *dest, char *src)
