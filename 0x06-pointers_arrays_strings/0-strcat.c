@@ -22,6 +22,6 @@ char *_strcat(char *dest, char *src)
 	for (j = 0; src[j] != '\0'; j++)
 	{
 		dest[destLen + j] = src[j];
-	}	
+	}
 	return (dest);
 }
