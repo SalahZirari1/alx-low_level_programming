@@ -19,7 +19,7 @@ char *cap_string(char *str)
 	{
 		if ((*ptr >= 'a' && *ptr <= 'z') && capitalize) 
 		{
-			*ptr = *ptr - 32; // Convert to uppercase
+			*ptr = *ptr - 32; 
 			capitalize = 0;
 		}
 	       	else if ((*ptr == ' ' || *ptr == '\t' || *ptr == '\n' ||
