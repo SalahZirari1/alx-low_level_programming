@@ -5,7 +5,7 @@
  * @dest:returned string
  * @src:string to concat
  *
- * return: a pointer
+ * Return: a pointer
  */
 
 char *_strcat(char *dest, char *src)
