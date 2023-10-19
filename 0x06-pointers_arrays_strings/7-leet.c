@@ -12,8 +12,6 @@ char *leet(char *str)
 	char *ptr;
 	char *leetChars;
 	char *leetReplacements;
-	int i;
-	int isReplaced;
 
 	ptr = str;
 	leetChars = "aAeEoOtTlL";
