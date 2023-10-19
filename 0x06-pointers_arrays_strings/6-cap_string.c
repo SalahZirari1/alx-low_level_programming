@@ -17,22 +17,20 @@ char *cap_string(char *str)
 
 	while (*ptr != '\0')
 	{
-		if (*ptr == ' ' || *ptr == '\t' || *ptr == '\n' ||
+		if ((*ptr >= 'a' && *ptr <= 'z') && capitalize) 
+		{
+			*ptr = *ptr - 32; // Convert to uppercase
+			capitalize = 0;
+		}
+	       	else if ((*ptr == ' ' || *ptr == '\t' || *ptr == '\n' ||
 		*ptr == ',' || *ptr == ';' || *ptr == '.' || *ptr == '!' || *ptr == '?' ||
-		*ptr == '"' || *ptr == '(' || *ptr == ')' || *ptr == '{' || *ptr == '}') {
-		capitalize = 1;
-	}
-	else if (capitalize)
-	{
-		if (*ptr >= 'a' && *ptr <= 'z')
+		*ptr == '"' || *ptr == '(' || *ptr == ')' || *ptr == '{' || *ptr == '}')) 
 		{
-			*ptr -= 32;
+			capitalize = 1;
 		}
-		capitalize = 0;
-		}
-		else if (*ptr >= 'A' && *ptr <= 'Z')
+		else 
 		{
-			*ptr += 32;
+			capitalize = 0;
 		}
 		ptr++;
 	}
