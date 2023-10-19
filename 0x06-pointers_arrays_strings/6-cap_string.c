@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * cap_strign - capitalizes string
+ * cap_string - capitalizes string
  * @str: string
  *
  * Return: capitalized str
@@ -26,16 +26,15 @@ char *cap_string(char *str)
 	{
 		if (*ptr >= 'a' && *ptr <= 'z')
 		{
-			*ptr -= 32; 
+			*ptr -= 32;
 		}
 		capitalize = 0;
 		}
 		else if (*ptr >= 'A' && *ptr <= 'Z')
 		{
-			*ptr += 32; 
+			*ptr += 32;
 		}
 		ptr++;
 	}
-	
 	return (str);
 }
