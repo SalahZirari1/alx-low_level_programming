@@ -10,26 +10,34 @@
 char *leet(char *str)
 {
 	char *ptr;
-	char *ogChars;
-	char *reps;
+	char *leetChars;
+	char *leetReplacements;
 	int i;
+	int isReplaced;
 
-	ogChars = "aAeEoOtTlL";
-	reps = "44330771";
 	ptr = str;
+	leetChars = "aAeEoOtTlL";
+	leetReplacements = "44330771";
 
 	while (*ptr != '\0')
 	{
-		for (i = 0; ogChars[i] != '\0'; i++)
+		i = 0;
+		isReplaced = 0;
+		while (leetChars[i] != '\0')
 		{
-			if (*ptr == ogChars[i])
+			if (*ptr == leetChars[i])
 			{
-				*ptr = reps[i];
+				*ptr = leetReplacements[i];
+				isReplaced = 1;
 				break;
 			}
+			i++;
 		}
-		ptr++;
+		if (!isReplaced)
+		{
+			ptr++;
+		}
 	}
 
-	return str;
+	return (str);
 }
