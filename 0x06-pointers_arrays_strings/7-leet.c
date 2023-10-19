@@ -24,7 +24,7 @@ char *leet(char *str)
 		{
 			if (*ptr == ogChars[i])
 			{
-				*ptr == reps[i];
+				*ptr = reps[i];
 				break;
 			}
 		}
