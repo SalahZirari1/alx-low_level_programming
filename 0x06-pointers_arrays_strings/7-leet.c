@@ -19,25 +19,17 @@ char *leet(char *str)
 	leetChars = "aAeEoOtTlL";
 	leetReplacements = "44330771";
 
-	while (*ptr != '\0')
-	{
-		i = 0;
-		isReplaced = 0;
-		while (leetChars[i] != '\0')
-		{
-			if (*ptr == leetChars[i])
-			{
-				*ptr = leetReplacements[i];
-				isReplaced = 1;
-				break;
-			}
-			i++;
-		}
-		if (!isReplaced)
-		{
-			ptr++;
-		}
-	}
-
+ while (*ptr != '\0') 
+ {
+        int i = 0;
+        while (leetChars[i] != '\0') {
+            if (*ptr == leetChars[i]) {
+                *ptr = leetReplacements[i];
+                break;
+            }
+            i++;
+        }
+        ptr++;
+    }
 	return (str);
 }
