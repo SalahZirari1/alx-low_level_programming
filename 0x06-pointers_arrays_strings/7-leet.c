@@ -9,25 +9,19 @@
 
 char *leet(char *str)
 {
-	char *ptr;
-	char *leetChars;
-	char *leetReplacements;
+	int i, j;
+	char s1[] = "aAeEoOtTlL";
+	char s2[] = "4433007711";
 
-	ptr = str;
-	leetChars = "aAeEoOtTlL";
-	leetReplacements = "44330771";
-
- while (*ptr != '\0') 
- {
-        int i = 0;
-        while (leetChars[i] != '\0') {
-            if (*ptr == leetChars[i]) {
-                *ptr = leetReplacements[i];
-                break;
-            }
-            i++;
-        }
-        ptr++;
-    }
-	return (str);
+	for (i = 0; n[i] != '\0'; i++)
+	{
+		for (j = 0; j < 10; j++)
+		{
+			if (n[i] == s1[j])
+			{
+				n[i] = s2[j];
+			}
+		}
+	}
+	return (n);
 }
