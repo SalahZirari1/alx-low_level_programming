@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
  * _strchr - locates a charachter in a sterling
@@ -16,9 +17,9 @@ char *_strchr(char *s, char c)
 	{
 		if (s[i] == c)
 		{
-			return (s[i]);
+			return (s + i);
 		}
-		i++
+		i++;
 	}
 
 	return (NULL);
