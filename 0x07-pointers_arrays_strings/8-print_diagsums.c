@@ -9,17 +9,13 @@
 
 void print_diagsums(int *a, int size)
 {
-	int i, j, total1, total2;
+	int i, total1, total2;
 
 
 	for (i = 0; i < size; i++)
 	{
-		total1 += a[i][i];
-	}
-
-	for (j = ; j < size; j++)
-	{
-		total2 += a[j][size-j];
+		total1 += a[i * size + i];
+		total2 += a[i * size + (size-i -1)];
 	}
 
 	printf("%d, %d", total1, total2);
