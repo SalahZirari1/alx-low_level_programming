@@ -12,13 +12,14 @@ unsigned int _strspn(char *s,char *accept)
 {
 	unsigned int count;
 	int found;
+	int i;
 
 	while (*s)
 	{
 		found = 0;
-	}
 
-	for (int i = 0; accept [i]; i++)
+
+	for (i = 0; accept [i]; i++)
 	{
 		if(*s == accept[i])
 		{
@@ -36,7 +37,7 @@ unsigned int _strspn(char *s,char *accept)
 	{
 		break;
 	}
-
+	}
 	return (count);
 }
 
