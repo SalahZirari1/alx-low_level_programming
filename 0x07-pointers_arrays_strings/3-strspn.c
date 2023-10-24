@@ -28,15 +28,13 @@ unsigned int _strspn(char *s,char *accept)
 		}
 	}
 
-	if (found)
+	if (!found)
 	{
-		count ++;
-		s++;
+		return (count);
 	}
-	else
-	{
-		break;
-	}
+	count++;
+	s++;
+
 	}
 	return (count);
 }
