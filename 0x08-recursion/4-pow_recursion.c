@@ -3,12 +3,12 @@
 /**
  * _pow_recursion - recurs power
  * @x: num
- * @ y: power
+ * @y: power
  *
  * Return: result
  */
 
-int _pow_recursion(int x,int y)
+int _pow_recursion(int x, int y)
 {
 	if (y == 1)
 		return (x);
