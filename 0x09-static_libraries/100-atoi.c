@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * atoi - does someyhing
+ * _atoi - does someyhing
  * @s: str
  *
  * Return: int
