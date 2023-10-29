@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 {
 	(void)argv;
 
-	_putchar(48 + argc);
+	_putchar(48 + argc - 1);
 
 	_putchar('\n');
 	return (0);
