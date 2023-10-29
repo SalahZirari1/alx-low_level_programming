@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * proggy - a program
+ * main - a program
  * @argc:argc
  * @argv:argv
  *
@@ -16,7 +16,7 @@ int main(int argc, char* argv[])
 		char* name;
 
 		name = argv[0];
-		while ( *name != '\0')
+		while (*name != '\0')
 		{
 			_putchar(*name);
 			name++;
