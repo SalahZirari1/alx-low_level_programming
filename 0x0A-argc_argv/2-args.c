@@ -12,6 +12,9 @@ int main(int argc, char *argv[])
 {
 	int i;
 
+	if ( argc > 0)
+	{
+
 	for (i = 1; i < argc; i++)
 	{
 		char *name;
@@ -27,6 +30,6 @@ int main(int argc, char *argv[])
 			name++;
 		}
 	}
-	
+	}
 	return (0);
 }
