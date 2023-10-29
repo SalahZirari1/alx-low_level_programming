@@ -14,10 +14,10 @@ int main(int argc, char *argv[])
 
 	for (i = 1; i < argc; i++)
 	{
+		char *name;
+
 		if (i != 1)
 			_putchar('\n');
-
-		char *name;
 
 		name = argv[i];
 
