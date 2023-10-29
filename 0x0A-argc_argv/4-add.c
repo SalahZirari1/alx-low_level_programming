@@ -4,7 +4,7 @@
 /**
  * main - sop
  * @argc:argc
- * @argb:argv
+ * @argv:argv
  *
  * Return: 1 or 0
  */
@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
 	int i, result;
 
-	result = 0;	
+	result = 0;
 	if (argc < 2)
 	{
 		printf("0\n");
@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 				return (1);
 			}
 		}
-	
+
 		result += atoi(argv[i]);
 	}
 	printf("%d\n", result);
