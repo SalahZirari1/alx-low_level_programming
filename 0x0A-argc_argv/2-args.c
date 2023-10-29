@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 			if (i != 1)
 				putchar('\n');
 	
-			printf("%s ",argv[i]);
+			printf("%s",argv[i]);
 
 		}
 		putchar('\n');
