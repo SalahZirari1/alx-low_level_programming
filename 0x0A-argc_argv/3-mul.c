@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main - multimplies
  * @argc: argc
@@ -10,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	int n,m;
+	int n, m, result;
 
 	if (argc < 3)
 	{
@@ -18,10 +18,11 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	n = *argv[1] - 48;
-	m = *argv[2] - 48;
+	n = atoi(argv[1]);
+	m = atoi(argv[2]);
+	result = n * m;
 
-	printf("%d", n * m);
+	printf("%d", result);
 
 	return (0);
 }
