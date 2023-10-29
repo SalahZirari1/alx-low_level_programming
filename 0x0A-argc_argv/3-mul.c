@@ -21,8 +21,7 @@ int main(int argc, char *argv[])
 	n = *argv[1] - 48;
 	m = *argv[2] - 48;
 
-	printf("%d %d", n, m);
-	/*printf("%d\n", n * m);*/
+	printf("%d\n", n * m);
 
 	return (0);
 }
