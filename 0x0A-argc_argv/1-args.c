@@ -10,6 +10,8 @@
 
 int main(int argc, char *argv[])
 {
+	(void)argv;
+
 	_putchar(argc);
 
 	return (0);
