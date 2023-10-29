@@ -13,9 +13,16 @@ int main(int argc, char *argv[])
 	int n,m;
 
 	if (argc < 3)
+	{
+		printf("Error");
 		return (1);
-	
-	printf("%d\n", argv[1] * argv[2]);
+	}
+
+	n = *argv[1] - 48;
+	m = *argv[2] - 48;
+
+	printf("%d %d", n, m);
+	/*printf("%d\n", n * m);*/
 
 	return (0);
 }
