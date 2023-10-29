@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - prints things
@@ -16,18 +17,12 @@ int main(int argc, char *argv[])
 	{
 		for (i = 1; i < argc; i++)
 		{
-			char *name;
 
 			if (i != 1)
-				_putchar('\n');
+				putchar('\n');
 	
-			name = argv[i];
+			printf("%s",argv[i]);
 
-			while ( *name != '\0')
-			{
-				_putchar(*name);
-				name++;
-			}
 		}
 	}
 
