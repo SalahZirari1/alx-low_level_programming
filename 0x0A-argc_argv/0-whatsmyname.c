@@ -5,15 +5,15 @@
  * @argc:argc
  * @argv:argv
  *
- * Return : 0
+ * Return : always 0
  */
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	if (argc > 0)
 	{
 
-		char* name;
+		char *name;
 
 		name = argv[0];
 		while (*name != '\0')
