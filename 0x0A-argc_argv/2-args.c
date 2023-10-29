@@ -14,6 +14,9 @@ int main(int argc, char *argv[])
 
 	for (i = 1; i < argc; i++)
 	{
+		if (i != 1)
+			_putchar('\n');
+
 		char *name;
 
 		name = argv[i];
@@ -23,7 +26,6 @@ int main(int argc, char *argv[])
 			_putchar(*name);
 			name++;
 		}
-		_putchar('\n');
 	}
 	
 	return (0);
