@@ -18,7 +18,7 @@ char *_strdup(char *str)
 
 	space = (char *)malloc(sizeof(str));
 
-	
+	i = 0;	
 	while (str[i] != '\0')
 	{
 		space[i] = str[i];
