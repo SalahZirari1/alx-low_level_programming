@@ -21,6 +21,9 @@ char *_strdup(char *str)
 		return (NULL);
 
 	space = (char *)malloc(len + 1);
+	
+	if (space == NULL)
+		return (NULL);
 
 	i = 0;	
 	while (str[i] != '\0')
