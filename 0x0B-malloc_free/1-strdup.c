@@ -29,6 +29,6 @@ char *_strdup(char *str)
 		i++;
 	}
 
-	space[len] = '\0'
+	space[len] = '\0';
 	return (space);
 }
