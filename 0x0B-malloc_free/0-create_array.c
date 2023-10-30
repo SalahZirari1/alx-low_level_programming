@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * create_array - creates array 
+ * create_array - creates array
  * @size: size
  * @c: char
  *
@@ -11,7 +11,7 @@
 
 char *create_array(unsigned int size, char c)
 {
-	
+
 	char *array;
 	unsigned int i;
 
@@ -29,5 +29,5 @@ char *create_array(unsigned int size, char c)
 		array[i] = c;
 	}
 
-	return array;
+	return (array);
 }
