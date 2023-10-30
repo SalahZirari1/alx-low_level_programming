@@ -21,11 +21,11 @@ char *_strdup(char *str)
 
 
 	space = (char *)malloc(len + 1);
-	
+
 	if (space == NULL)
 		return (NULL);
 
-	i = 0;	
+	i = 0;
 	while (str[i] != '\0')
 	{
 		space[i] = str[i];
