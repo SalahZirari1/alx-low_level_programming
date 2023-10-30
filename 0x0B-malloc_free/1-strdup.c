@@ -14,7 +14,7 @@ char *_strdup(char *str)
 	int i, len;
 
 	len = 0;
-	while (str[len] != '\0')
+	while (str[len] != "\0")
 		len++;
 
 	if (str == NULL)
@@ -23,12 +23,12 @@ char *_strdup(char *str)
 	space = (char *)malloc(len + 1);
 
 	i = 0;	
-	while (str[i] != '\0')
+	while (str[i] != "\0")
 	{
 		space[i] = str[i];
 		i++;
 	}
 
-	space[len] = '\0'
+	space[len] = "\0"
 	return (space);
 }
