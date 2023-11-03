@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * array_arrange - create array of ints
+ * array_range - create array of ints
  * @min: min
  * @max: mx
  *
@@ -17,12 +17,12 @@ int *array_range(int min, int max)
 
 	n = max - min + 1;
 
-	if (min > max) 
+	if (min > max)
 		return (NULL);
 
 	p = (int *)malloc(n * sizeof(int));
 
-	if ( p == NULL)
+	if (p == NULL)
 		return (NULL);
 
 	for (i = 0; i < n; i++)
